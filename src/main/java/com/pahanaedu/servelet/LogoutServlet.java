@@ -2,7 +2,6 @@ package com.pahanaedu.servelet;
 import com.pahanaedu.dao.DAOFactory;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
 public class LogoutServlet extends HttpServlet {

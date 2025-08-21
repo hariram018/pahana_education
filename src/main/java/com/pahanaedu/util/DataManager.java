@@ -12,16 +12,16 @@ public class DataManager {
     private Map<String, User> users = new HashMap<>();
     private Map<String, Role> roles = new HashMap<>();
     private List<UserRole> userRoles = new ArrayList<>();
-//    private Map<String, Customer> customers = new HashMap<>();
-//    private Map<String, Item> items = new HashMap<>();
-//    private List<Bill> bills = new ArrayList<>();
+    private Map<String, Customer> customers = new HashMap<>();
+    private Map<String, Item> items = new HashMap<>();
+    private List<Bill> bills = new ArrayList<>();
     private Connection connection;
     String url;
     String username;
     String password;
     String driver;
 
-    private DataManager() {
+    DataManager() {
         loadDbProperties();
 
     }
@@ -79,6 +79,9 @@ public class DataManager {
     public Map<String, User> getUsers() { return users; }
     public Map<String, Role> getRoles() { return roles; }
     public List<UserRole> getUserRoles() { return userRoles; }
+    public Map<String, Customer> getCustomers() { return customers; }
+    public Map<String, Item> getItems() { return items; }
+    public List<Bill> getBills() { return bills; }
 
     public void closeConnection() {
         try {

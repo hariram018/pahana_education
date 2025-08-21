@@ -8,4 +8,16 @@ public class DAOFactory {
     public static RoleDAO getRoleDAO() {
         return new RoleDAOImpl();
     }
+
+    public static CustomerDAO getCustomerDAO() {
+        return new CustomerDAOImpl();
+    }
+    public static ItemDAO getItemDAO() {
+        return new ItemDAOImpl();
+    }
+
+    public static BillDAO getBillDAO() {
+        return new BillDAOImpl();
+    }
+
 }

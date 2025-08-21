@@ -1,4 +1,4 @@
-package com.pahanaedu;
+package com.pahanaedu.dao;
 
 import com.pahanaedu.model.Role;
 import com.pahanaedu.model.UserRole;

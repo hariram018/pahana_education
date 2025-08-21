@@ -1,4 +1,4 @@
-package com.pahanaedu.dao;
+package com.pahanaedu;
 
 import com.pahanaedu.model.User;
 import com.pahanaedu.util.DataManager;
